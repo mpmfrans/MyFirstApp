@@ -65,15 +65,15 @@
   <gap:splash src="www/res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone"/>    
   <platform name="android">
     <!-- you can use any density that exists in the Android project -->
-    <gap:splash src="www/res/screen/android/screen-hdpi-landscape.png" gap:density="land-hdpi"/>
-    <gap:splash src="www/res/screen/android/screen-ldpi-landscape.png" gap:density="land-ldpi"/>
-    <gap:splash src="www/res/screen/android/screen-mdpi-landscape.png" gap:density="land-mdpi"/>
-    <gap:splash src="www/res/screen/android/screen-xhdpi-landscape.png" gap:density="land-xhdpi"/>
+    <splash src="www/res/screen/android/screen-hdpi-landscape.png" density="land-hdpi"/>
+    <splash src="www/res/screen/android/screen-ldpi-landscape.png" density="land-ldpi"/>
+    <ssplash src="www/res/screen/android/screen-mdpi-landscape.png" density="land-mdpi"/>
+    <splash src="www/res/screen/android/screen-xhdpi-landscape.png" density="land-xhdpi"/>
 
-    <gap:splash src="www/res/screen/android/screen-hdpi-portrait.png" gap:density="port-hdpi"/>
-    <gap:splash src="www/res/screen/android/screen-ldpi-portrait.png" gap:density="port-ldpi"/>
-    <gap:splash src="www/res/screen/android/screen-mdpi-portrait.png" gap:density="port-mdpi"/>
-    <gap:splash src="www/res/screen/android/screen-xhdpi-portrait.png" gap:density="port-xhdpi"/>
+    <splash src="www/res/screen/android/screen-hdpi-portrait.png" gap:density="port-hdpi"/>
+    <splash src="www/res/screen/android/screen-ldpi-portrait.png" gap:density="port-ldpi"/>
+    <splash src="www/res/screen/android/screen-mdpi-portrait.png" density="port-mdpi"/>
+    <splash src="www/res/screen/android/screen-xhdpi-portrait.png" density="port-xhdpi"/>
   </platform>    
     
     

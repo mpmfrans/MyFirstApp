@@ -27,9 +27,6 @@ var app = {
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
-        window.setTimeout(function() {
-		navigator.splashscreen.hide();
-	},5000);
     },
     // deviceready Event Handler
     //
