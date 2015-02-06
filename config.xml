@@ -54,6 +54,7 @@
   <icon src="www/res/icon/windows-phone/icon-173-tile.png" gap:platform="winphone" gap:role="background"/>
   <platform name="android">
     <!-- you can use any density that exists in the Android project -->
+    <gap:splash src="splash.png" />
     <splash src="www/res/screen/android/screen-hdpi-landscape.png" density="land-hdpi"/>
     <splash src="www/res/screen/android/screen-ldpi-landscape.png" density="land-ldpi"/>
     <splash src="www/res/screen/android/screen-mdpi-landscape.png" density="land-mdpi"/>
