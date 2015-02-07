@@ -38,12 +38,14 @@
   <gap:plugin name="org.apache.cordova.network-information"/>
   <gap:plugin name="org.apache.cordova.splashscreen"/>
   <gap:plugin name="org.apache.cordova.vibration"/>
-  <gap:splash src=”splash.9.png” />
-    <gap:splash src=”splash.9.png” gap:platform=”android” gap:density=”ldpi” />
-    <gap:splash src=”splash.9.png” gap:platform=”android” gap:density=”mdpi” />
-    <gap:splash src=”splash.9.png” gap:platform=”android” gap:density=”hdpi” />
-    <gap:splash src=”splash.9.png” gap:platform=”android” gap:density=”xhdpi” />
-    <gap:splash src=”splash.9.png” gap:platform=”android” gap:density=”xxhdpi” />
+  <platform name="android">
+    <!-- you can use any density that exists in the Android project -->
+    <gap:splash src="www/splash.9.png" />
+    <splash src="www/res/drawable-hdpi/splash.9.png" density="hdpi"/>
+    <splash src="www/res/drawable-ldpi/splash.9.png" density="ldpi"/>
+    <splash src="www/res/drawable-mdpi/splash.9.png" density="mdpi"/>
+    <splash src="www/res/drawable-xhdpi/splash.9.png" density="xhdpi"/>
+  </platform>
   <icon src="www/res/icon/blackberry/icon-80.png" gap:platform="blackberry"/>
   <icon src="www/res/icon/blackberry/icon-80.png" gap:platform="blackberry" gap:state="hover"/>
   <icon src="www/res/icon/ios/icon-57.png" gap:platform="ios" width="57" height="57"/>
