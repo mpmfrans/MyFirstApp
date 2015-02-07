@@ -15,8 +15,8 @@
   <preference name="exit-on-suspend" value="false"/>
   <preference name="show-splash-screen-spinner" value="true"/>
   <preference name="auto-hide-splash-screen" value="true"/>
-  <preference name="splashcreen" value="splash" />
-  <preference name="splashcreenDelay" value="10000" />
+  <preference name="SplashScreen" value="splash" />
+  <preference name="SplashScreenDelay" value="10000" />
   <preference name="disable-cursor" value="false"/>
   <preference name="android-minSdkVersion" value="7"/>
   <preference name="android-installLocation" value="auto"/>
@@ -40,11 +40,16 @@
   <gap:plugin name="org.apache.cordova.vibration"/>
   <platform name="android">
     <!-- you can use any density that exists in the Android project -->
-    <gap:splash src="www/splash.9.png" />
-    <splash src="www/res/drawable-hdpi/splash.9.png" density="hdpi"/>
-    <splash src="www/res/drawable-ldpi/splash.9.png" density="ldpi"/>
-    <splash src="www/res/drawable-mdpi/splash.9.png" density="mdpi"/>
-    <splash src="www/res/drawable-xhdpi/splash.9.png" density="xhdpi"/>
+    <gap:splash src="splash.png" />
+    <splash src="www/res/screen/android/screen-hdpi-landscape.png" density="land-hdpi"/>
+    <splash src="www/res/screen/android/screen-ldpi-landscape.png" density="land-ldpi"/>
+    <splash src="www/res/screen/android/screen-mdpi-landscape.png" density="land-mdpi"/>
+    <splash src="www/res/screen/android/screen-xhdpi-landscape.png" density="land-xhdpi"/>
+
+    <splash src="www/res/screen/android/screen-hdpi-portrait.png" density="port-hdpi"/>
+    <splash src="www/res/screen/android/screen-ldpi-portrait.png" density="port-ldpi"/>
+    <splash src="www/res/screen/android/screen-mdpi-portrait.png" density="port-mdpi"/>
+    <splash src="www/res/screen/android/screen-xhdpi-portrait.png" density="port-xhdpi"/>
   </platform>
   <icon src="www/res/icon/blackberry/icon-80.png" gap:platform="blackberry"/>
   <icon src="www/res/icon/blackberry/icon-80.png" gap:platform="blackberry" gap:state="hover"/>
